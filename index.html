@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity Professional Portfolio - BTech & MSc in Cyber Security">
+    <title>Cybersecurity Portfolio | Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Prashanth Nallamilli</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="hero-title glitch" data-text="CYBERSECURITY SPECIALIST">CYBERSECURITY SPECIALIST</h1>
+            </div>
+            <div class="terminal-text">
+                <p class="typing-effect">
+                    <span class="prompt">root@security:~$</span>
+                    <span class="command">whoami</span>
+                </p>
+                <p class="terminal-output">Penetration Tester | Security Researcher | MSc Cyber Security Student</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="lock-animation">
+                <svg viewBox="0 0 200 200" class="lock-svg">
+                    <defs>
+                        <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path class="lock-body" d="M60 90 L60 160 Q60 170 70 170 L130 170 Q140 170 140 160 L140 90 Z"
+                        fill="url(#lockGradient)" opacity="0.8" />
+                    <circle class="lock-keyhole" cx="100" cy="120" r="8" fill="#0a0e27" />
+                    <rect class="lock-keyhole-slot" x="96" y="125" width="8" height="20" fill="#0a0e27" />
+                    <path class="lock-shackle" d="M70 90 L70 60 Q70 30 100 30 Q130 30 130 60 L130 90"
+                        stroke="url(#lockGradient)" stroke-width="8" fill="none" opacity="0.8" />
+                </svg>
+                <div class="security-rings">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span class="title-text">About Me</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hello! I'm a passionate cybersecurity professional with a strong foundation in protecting
+                        digital assets and identifying vulnerabilities.
+                    </p>
+                    <p>
+                        I completed my <strong>BTech in Cyber Security</strong> from Malla Reddy University, Hyderabad,
+                        India.
+                        where I developed a solid understanding of security fundamentals, network protocols, and Malware
+                        Analysis
+                        Currently, I'm pursuing my <strong>MSc in Cyber Security</strong> in Coventry University ,
+                        United Kingdom.
+                        Deepening my expertise in advanced threat detection, cryptography, and security architecture.
+                    </p>
+                    <p>
+                        My journey in cybersecurity is driven by a curiosity to understand how systems can be exploited
+                        and, more importantly, how to defend them. I specialize in penetration testing, vulnerability
+                        assessment, and security research.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎓</div>
+                            <div class="highlight-text">
+                                <h4>Education</h4>
+                                <p>BTech & MSc in Cyber Security</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🔐</div>
+                            <div class="highlight-text">
+                                <h4>Specialization</h4>
+                                <p>Penetration Testing & Security Research</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🌍</div>
+                            <div class="highlight-text">
+                                <h4>Location</h4>
+                                <p>United Kingdom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="profile.jpg" alt="Profile Photo"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                        <div class="frame-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span class="title-text">Education</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="education-timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Present</div>
+                        <h3>MSc in Cyber Security</h3>
+                        <h4>Coventry University, United Kingdom</h4>
+                        <p>Advanced studies in threat intelligence, cloud security,cryptography, security architecture,
+                            and
+                            Ethical Hacking . Focusing on cutting-edge research in cybersecurity defense mechanisms.</p>
+                        <div class="education-tags">
+                            <span class="tag">Cloud Security</span>
+                            <span class="tag">Threat Intelligence</span>
+                            <span class="tag">Ethical Hacking</span>
+                            <span class="tag">Security Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <h3>BTech in Cyber Security</h3>
+                        <h4>Malla Reddy University, India</h4>
+                        <p>Comprehensive foundation in network security, cryptography, and security
+                            protocols. Completed multiple hands-on projects in penetration testing and vulnerability
+                            assessment.</p>
+                        <div class="education-tags">
+                            <span class="tag">Network Security</span>
+                            <span class="tag">Malware Analysis</span>
+                            <span class="tag">Penetration Testing</span>
+                            <span class="tag">Security Protocols</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                <span class="title-text">Skills & Expertise</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <div class="category-icon">🛡️</div>
+                        <h3>Security Testing</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Penetration Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Vulnerability Assessment</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web Application Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">🔧</div>
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Metasploit / Burp Suite</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Wireshark / Nmap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Kali Linux </span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">💻</div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript / SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon">🔐</div>
+                        <h3>Security Domains</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Network Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Penetration Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                <span class="title-text">Featured Projects</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-header">
+                        <div class="project-icon">🔍</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Vulnerability Scanner</h3>
+                    <p>Developed an automated vulnerability scanning tool that identifies common security flaws in web
+                        applications including SQL injection, XSS, and CSRF vulnerabilities.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">Requests</span>
+                        <span class="tech-tag">SQLMap</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-icon">🌐</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Network Traffic Analyzer</h3>
+                    <p>Built a real-time network traffic analysis tool that detects anomalies and potential security
+                        threats using machine learning algorithms and packet inspection.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scapy</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Wireshark</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-icon">🔐</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Secure Authentication System</h3>
+                    <p>Implemented a multi-factor authentication system with biometric integration, featuring end-to-end
+                        encryption and secure session management.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">bcrypt</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <div class="project-icon">🕵️</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="project-link" title="Live Demo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Digital Forensics Toolkit</h3>
+                    <p>Created a comprehensive digital forensics toolkit for analyzing disk images, recovering deleted
+                        files, and extracting metadata from various file formats.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Autopsy</span>
+                        <span class="tech-tag">Volatility</span>
+                        <span class="tech-tag">FTK</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05.</span>
+                <span class="title-text">Certifications</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="certifications-grid">
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <svg viewBox="0 0 100 100" class="badge-svg">
+                            <polygon points="50,10 61,35 88,35 67,52 75,77 50,62 25,77 33,52 12,35 39,35"
+                                fill="url(#certGradient)" />
+                            <defs>
+                                <linearGradient id="certGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Certified Ethical Hacker (CEH)</h3>
+                    <p class="cert-issuer">EC-Council</p>
+                    <p class="cert-date">Expected 2025</p>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cert-badge">
+                        <svg viewBox="0 0 100 100" class="badge-svg">
+                            <polygon points="50,10 61,35 88,35 67,52 75,77 50,62 25,77 33,52 12,35 39,35"
+                                fill="url(#certGradient2)" />
+                            <defs>
+                                <linearGradient id="certGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00ff87;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00f2ff;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>CompTIA Security+</h3>
+                    <p class="cert-issuer">CompTIA</p>
+                    <p class="cert-date">Expected 2025</p>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cert-badge">
+                        <svg viewBox="0 0 100 100" class="badge-svg">
+                            <polygon points="50,10 61,35 88,35 67,52 75,77 50,62 25,77 33,52 12,35 39,35"
+                                fill="url(#certGradient3)" />
+                            <defs>
+                                <linearGradient id="certGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>OSCP</h3>
+                    <p class="cert-issuer">Offensive Security</p>
+                    <p class="cert-date">In Progress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">06.</span>
+                <span class="title-text">Get In Touch</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently open to new opportunities and collaborations in cybersecurity. Whether you have a
+                        question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:prashanthnallamilli15@gmail.com" class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-text">
+                                <h4>Email</h4>
+                                <p>prashanthnallamilli15@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+447440053576" class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-text">
+                                <h4>Phone</h4>
+                                <p>+44 7440053576</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="contact-method" target="_blank">
+                            <div class="method-icon">💼</div>
+                            <div class="method-text">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/yourprofile</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/yourusername" class="contact-method" target="_blank">
+                            <div class="method-icon">💻</div>
+                            <div class="method-text">
+                                <h4>GitHub</h4>
+                                <p>github.com/yourusername</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
